@@ -40,7 +40,7 @@ bot.onText(/\/attack (.+)/, (msg, match) => {
         } else {
             bot.sendMessage(chatId, '😈 ATTACK START 😈');
             setTimeout(() => {
-                bot.sendMessage(chatId, 'YOU CAN NOW ATTACK ANOTHER SITE {BOT OWNER MD OMOR FARUK}');
+                bot.sendMessage(chatId, 'YOU CAN NOW ATTACK ANOTHER SITE {Ddosaka_bot}');
             }, 30000);
         }
     });
